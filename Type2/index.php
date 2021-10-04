@@ -11,6 +11,12 @@
     <script type="text/javascript" src="./js/index.js"></script>
 </head>
 <body>
-	
+	<h4>Шаблон приложения для Битрикс24</h4>
+	<p>
+		<datalist id="listData"></datalist>
+		<label for="inputData">Введите путь к карте сайта: </label>
+		<input id="inputData" name="inputData" placeholder="Введине данные" value="" list="listData" />
+		<button id="buttonPerform">Выполнить</button>
+	</p>
 </body>
 </html>

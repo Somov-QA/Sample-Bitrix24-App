@@ -2,7 +2,6 @@ function application() {}
 
 application.prototype.bxTasksTaskList = function(taskID, domainName, callback) {
     try {
-
         if(taskID === null || taskID === undefined) return;
         BX24.callMethod('tasks.task.list', {
             filter:{

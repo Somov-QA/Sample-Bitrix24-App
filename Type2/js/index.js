@@ -20,4 +20,9 @@ $(document).ready(function(){
     function include(file){
         $("head").append('<script type="text/javascript" src="'+file+'"></script>');
     }
-}
+
+    ui.buttonPerform.click(function(){
+    	ui.addValueInListData(ui.inputData.val());
+    	ui.inputData.val('');
+    });
+});
