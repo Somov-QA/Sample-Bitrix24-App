@@ -1,0 +1,18 @@
+body {
+	background-color: #EEF2F5;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	padding: 5px;
+}
+
+h4 {
+	color: #5A5752;
+}
+
+textarea {
+	resize: none;
+}
+
+label {
+	color: #5A5752;
+}
